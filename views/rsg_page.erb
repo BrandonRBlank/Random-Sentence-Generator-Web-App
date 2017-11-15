@@ -1,0 +1,19 @@
+<div class="my-container">
+  <div class="container-fluid">
+    <form action="/" method="POST" id="rsg-form">
+      <select name="RSGme" id="reg-form" class="drop">
+            <option value=""> </option>
+        <% @arr.each do |g| %>
+            <option value="<%=g%>"><%=g%></option>
+        <% end %>
+      </select>
+      <button type="Submit" id="buto">Generate</button>
+    </form>
+  </div>
+</div>
+
+<div class="container">
+  <p id="hax"><%=@haxor%></p>
+  <p id="choice"><%=@choice%></p>
+</div>
+
