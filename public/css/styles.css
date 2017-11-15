@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    background-image: url('/BG.jpg');
+    color: whitesmoke;
+}
+
+#head {
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#buto {
+    height: inherit;
+    position: fixed;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.my-container {
+    background-color: #252525;
+    max-width: 1000px;
+    margin: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#rsg-form {
+    margin: 10px;
+    max-width: inherit;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#hax {
+    background-color: #fd2914;
+    max-width: 1000px;
+    margin-left: 7.3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#choice {
+    background-color: #252525;
+    max-width: 1000px;
+    margin-left: 7.3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
